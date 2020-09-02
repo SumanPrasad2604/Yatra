@@ -1,0 +1,20 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+.carousel-caption{
+    bottom: 250px;
+}
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 30px;
+    }
+    .carousel-caption h6{
+        font-size: 0px;
+    }
+    
+}
